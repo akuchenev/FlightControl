@@ -4,8 +4,10 @@
   "description": "flight control",
   "main": "index.html",
   "scripts": {
-    "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "build:prod": "webpack --mode=production",
+    "build:test": "webpack --mode=development",
+    "start:prod": "webpack-dev-server --mode=production",
+    "start:test": "webpack-dev-server --mode=development"
   },
   "repository": {
     "type": "git",
