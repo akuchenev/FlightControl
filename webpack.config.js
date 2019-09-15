@@ -34,6 +34,8 @@ module.exports = (env, argv) => {
             }
         },
 
+
+
         plugins: [
             new HtmlWebpackPlugin({
                     hash: isDevMode,
